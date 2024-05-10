@@ -68,7 +68,8 @@ class IceCream(PublishedModel):
 
     price = models.DecimalField(
         max_digits=5,
-        decimal_places=2
+        decimal_places=2,
+        default=0
     )
 
     output_order = models.PositiveSmallIntegerField(
